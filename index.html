@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Decodificador</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="icon" href="data:,">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho_logo">
+            <img class="logo_imagem" src="./src/assets/logo_alura.png" alt="Logotipo da Alura">
+        </nav>
+    </header>
+
+    <main class="descricao">
+
+        <section class="descricao_conteudo">
+            <div class="descricao_container">
+                <textarea id="textArea" class="descricao_conteudo_area-texto" placeholder="Digite seu texto"></textarea>
+            </div>
+        </section>
+
+        <section class="descricao_ciframento">
+            <p class="descricao_ciframento_informativo">
+                <i class="fa-sharp-duotone fa-solid fa-circle-exclamation"></i> Apenas letras minúsculas e sem acento.
+            </p>
+            <div class="descricao_ciframento_botoes">
+                <button class="botao_criptografar">Criptografar</button>
+                <button class="botao_descriptografar">Descriptografar</button>
+            </div>
+        </section>
+
+        <section class="descricao_subtitulo">
+            <img class="descricao_subtitulo_home-imagem" src="./src/assets/home_imagem.png" alt="Imagem da Home">
+            <h2 id="resultadoTitulo" class="descricao_subtitulo_informativo">
+                Nenhuma mensagem encontrada
+            </h2>
+            <p id="resultadoTexto" class="descricao_subtitulo_paragrafo">
+                Digite um texto que você deseja criptografar ou descriptografar.
+            </p>
+            <button class="botao_copiar">Copiar</button>
+        </section>
+
+    </main>
+
+    <footer class="descricao_rodape">
+        <div class="descricao_rodape_informativo">
+            <p class="descricao_rodape_paragrafo">
+                Desenvolvido por Vinicius Maciel @2024
+                <a href="https://github.com/vinicius-maciel" target="_blank" rel="noopener noreferrer">
+                    <img class="descricao_rodape-imagem" src="./src/assets/github_imagem.png" alt="Github Imagem">
+                </a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="./src/components/app.js"></script>
+
+</body>
+
+</html>
